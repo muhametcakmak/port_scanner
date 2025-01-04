@@ -6,7 +6,7 @@ def print_banner():
     banner = pyfiglet.figlet_format("Port Scanner", font="slant")
     print(f"{Fore.RED}{banner}{Style.RESET_ALL}")
     print(f"{Fore.WHITE}{'='*75}{Style.RESET_ALL}")
-    print(f"{Fore.RED}Geliştirici: [Muhammet Çakmak] | GitHub: https://github.com/muhammettcakmak{Style.RESET_ALL}")
+    print(f"{Fore.RED}Geliştirici: [Muhammet Çakmak] | GitHub: https://github.com/muhammetcakmak{Style.RESET_ALL}")
     print(f"{Fore.WHITE}{'='*75}\n{Style.RESET_ALL}")
 
 def get_user_input():
